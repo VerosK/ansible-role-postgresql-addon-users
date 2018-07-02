@@ -1,0 +1,21 @@
+---
+
+# Users to ensure
+postgresql_addon_users: []
+
+# Example:
+# postgresql_addon_users: []
+# - name: 'user1'
+#    password: 'password1'
+#    priv: 'ALL'
+#    db: 'db1'
+#    state: 'present'
+
+#  - name: 'user2'
+#    password: password2
+#    priv: 'ALL'
+#    db: 'anotherdb'
+#    state: 'present'
+#
+#  - name: 'user3'
+#    state: 'absent'

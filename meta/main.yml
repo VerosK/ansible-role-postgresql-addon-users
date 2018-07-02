@@ -1,0 +1,24 @@
+galaxy_info:
+  author: VerosK
+  description: Ansible role to add PostgreSQL users
+  company: wftech
+  license: BSD
+
+  min_ansible_version: 2.2
+
+  # If this a Container Enabled role, provide the minimum Ansible Container version.
+  # min_ansible_container_version:
+
+  # platforms is a list of platforms, and each platform has a name and a list of versions.
+  #
+   platforms:
+   - name: EL
+     versions: [ 6, 7 ]
+   - name: Ubuntu
+     versions: [ xenial, zesty ]
+
+  galaxy_tags: 
+    - postgresql
+
+dependencies: 
+    - geerlingguy.postgresql
