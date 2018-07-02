@@ -9,8 +9,6 @@ galaxy_info:
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
 
-  # platforms is a list of platforms, and each platform has a name and a list of versions.
-  #
   platforms:
    - name: EL
      versions: [ 6, 7 ]
@@ -20,5 +18,5 @@ galaxy_info:
   galaxy_tags: 
     - postgresql
 
-dependencies: 
-    - geerlingguy.postgresql
+dependencies:
+  - geerlingguy.postgresql
